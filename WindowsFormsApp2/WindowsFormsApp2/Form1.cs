@@ -116,8 +116,16 @@ namespace WindowsFormsApp2
 
            
             listBox7.Items.Add(label12.Text + " " + label13.Text + " " + label14.Text + " " + label15.Text + " " + label16.Text + " " + label17.Text + " " + label18.Text + " " + label19.Text + " " + label20.Text + " " + label21.Text);
-
-             
+            label12.Text = "";
+            label13.Text = "";
+            label14.Text = "";
+            label15.Text = "";
+            label16.Text = "";
+            label17.Text = "";
+            label18.Text = "";
+            label19.Text = "";
+            label20.Text = "";
+            label21.Text = "";
         }
 
         private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
